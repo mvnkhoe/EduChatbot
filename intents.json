@@ -1,0 +1,102 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Greetings!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Have a great day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Happy to help!"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "I'm not sure I understand.",
+                "Can you rephrase that?",
+                "I'm sorry, I don't have an answer for that."
+            ]
+        },
+        {
+            "tag": "homework_help",
+            "patterns": ["Can you help me with homework?", "I don't understand this homework", "I'm stuck on my assignment", "Need help with homework"],
+            "responses": ["Sure! What subject are you working on?", "I'd be happy to help, which part of the homework is confusing?", "Let me know the question, and I'll guide you."]
+        },
+        {
+            "tag": "study_tips",
+            "patterns": ["Any study tips?", "How can I study better?", "What are some study techniques?", "How do I improve my grades?"],
+            "responses": ["Make a study schedule, take regular breaks, and stay organized.", "Try active recall and spaced repetition. Also, don't forget to get enough sleep!", "Focus on understanding concepts rather than memorizing. Practice with past papers."]
+        },
+        {
+            "tag": "stress_anxiety",
+            "patterns": ["I'm feeling stressed", "I feel anxious about school", "How do I deal with stress?", "I'm feeling overwhelmed"],
+            "responses": ["It's okay to feel that way. Try taking deep breaths and taking one step at a time.", "Maybe try some relaxation exercises like breathing or listening to music. Don't hesitate to talk to someone if you're feeling too overwhelmed.", "You're not alone. Take things slowly and ask for help when you need it."]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["I need motivation", "I don't feel like studying", "I'm not motivated to do schoolwork", "Help me stay motivated"],
+            "responses": ["Remember why you started, even small progress counts!", "Take it one task at a time. You're capable of more than you think.", "Set small goals and celebrate your progress along the way."]
+        },
+        {
+            "tag": "time_management",
+            "patterns": ["How do I manage my time?", "I'm struggling with time management", "I have too many tasks to do", "Help me organize my time"],
+            "responses": ["Try creating a schedule or using a planner. Break tasks down into smaller chunks.", "Prioritize tasks and tackle them one by one. Don't forget to set aside time for breaks!", "Avoid procrastination. Use the Pomodoro technique: 25 minutes of work followed by a 5-minute break."]
+        },
+        {
+            "tag": "school_rules",
+            "patterns": ["What are the school rules?", "Tell me about the school policies", "What should I know about school regulations?"],
+            "responses": ["Be respectful, follow the dress code, and always do your best in class.", "Punctuality is important, and make sure to follow the rules to create a positive environment for everyone."]
+        },
+        {
+            "tag": "school_events",
+            "patterns": ["When is the next school event?", "Tell me about upcoming school events", "Are there any events happening at school?"],
+            "responses": ["Check the school calendar for upcoming events or announcements!", "Don't forget about the annual sports day coming up next month!", "There will be a science fair next week, make sure you participate."]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Can you make me laugh?", "I need a good laugh", "Tell me something funny"],
+            "responses": ["Why don't skeletons fight each other? They don't have the guts!", "Why don't eggs tell jokes? Because they'd crack each other up!", "Why did the student eat his homework? Because his teacher said it was a piece of cake!"]
+        },
+        {
+            "tag": "quotes",
+            "patterns": ["Give me an inspirational quote", "I need some motivation", "Can you share a quote?"],
+            "responses": ["'The future belongs to those who believe in the beauty of their dreams.' - Eleanor Roosevelt", "'Success is the sum of small efforts, repeated day in and day out.' - Robert Collier", "'Believe you can and you're halfway there.' - Theodore Roosevelt"]
+        }
+    ]
+}
+
+
+
+
